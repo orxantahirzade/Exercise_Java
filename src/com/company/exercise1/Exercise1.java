@@ -11,7 +11,7 @@ public class Exercise1 {
 
         String exit = scan.nextLine();
 
-        System.out.println("The Middle character of the String: " + MiddleCharacter(exit));
+        System.out.println("The Middle character of the String: " + middleCharacter(exit));
 
 
 
@@ -19,7 +19,7 @@ public class Exercise1 {
 
     }
 
-    public static String MiddleCharacter (String a){
+    public static String middleCharacter (String a){
 
 
         int strLenght = a.length();
